@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'echo 'my working directory is' $PWD'
+        sh 'echo $PWD'
       }
     }
 
